@@ -15,12 +15,12 @@ nav{
 
 }
 
-ul {display:flex;
+nav ul {display:flex;
     list-style:none;
     gap:20px;
 }
 
-a{
+nav a{
     text-decoration:none;
     color: black;
 }
@@ -118,5 +118,116 @@ header{
 }
 .speaker-info{
     padding:24px;
+}
+
+
+
+
+
+.pricing-section{
+    width: 100%;
+    background: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pricing-wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pricing-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+.pricing-header p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #575757;
+}
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 50px;
+}
+.pricing-card{
+    width: 330px;
+    padding: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card h5{
+    font-size: 12px;
+    color: #6B7280;
+    margin-bottom: 10px;
+}
+
+.pricing-card h3{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.pricing-card span{
+    color: #6B7280;
+}
+
+.pricing-card ul{
+    margin: 25px 0;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+.pricing-card li{
+    margin-bottom: 12px;
+    
+}
+
+.pricing-card button{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    background: white;
+    color: #2563EB;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: auto;
+  
+}
+.pro-card{
+    background-color: #0F172A;
+    color: white;
+}
+
+.pro-card h5{
+    color: #60A5FA;
+}
+
+.pro-card hr{
+    border-color: #334155;
+}
+
+.pro-card button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+
+.pro-card span{
+    color: #FFFFFF;
+}
+
+.pricing-card li::marker{
+    color: #3B82F6; /* Blue bullet */
 }
 
