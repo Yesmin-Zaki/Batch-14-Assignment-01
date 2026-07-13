@@ -162,6 +162,7 @@ header{
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .pricing-card h5{
     font-size: 12px;
@@ -174,6 +175,8 @@ header{
 }
 .pricing-card span{
     color: #6B7280;
+    display:block;
+    margin-bottom: 20px;
 }
 .pricing-card ul{
     margin: 25px 0;
